@@ -2,27 +2,25 @@
 
 
 
-## => ETL PROCESS OVERVIEW
+## 1. ETL PROCESS OVERVIEW
 
 storage: s3
 pipeline: glue
 data warehouse: redshift
 
-## Steps: 
+### Steps: 
 
-### 1. Fetch data: 
+#### 1. Fetch data: 
 	Python scripts to fetch data from (API, csv, json) and combine and load this data into s3
-### 2. Transform the data:
+#### 2. Transform the data:
 	Transformations logic on glue
-### 3. Load data:
+#### 3. Load data:
 	Pushing the transformed data into redshift
-### 4. Build a visualization on top of redshift
+#### 4. Build a visualization on top of redshift
 	PowerBI
 
-===========================================
 
-
-## => DATASET
+## 2. DATASET
 
 DATA SET (API): http://makeup-api.herokuapp.com/
 
