@@ -24,3 +24,4 @@ data warehouse: redshift
 
 DATA SET (API): http://makeup-api.herokuapp.com/
 
+## 3. TEST
